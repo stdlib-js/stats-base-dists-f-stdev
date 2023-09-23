@@ -69,7 +69,7 @@ for `d1 > 0` and `d2 > 4`. Otherwise, the standard deviation is not defined.
 ## Usage
 
 ```javascript
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-stdev@esm/index.mjs';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-stdev@v0.1.0-esm/index.mjs';
 ```
 
 #### stdev( d1, d2 )
@@ -145,7 +145,7 @@ v = stdev( 3.0, -1.0 );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-stdev@esm/index.mjs';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-stdev@v0.1.0-esm/index.mjs';
 
 var d1;
 var d2;
