@@ -69,7 +69,7 @@ for `d1 > 0` and `d2 > 4`. Otherwise, the standard deviation is not defined.
 ## Usage
 
 ```javascript
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-stdev@deno/mod.js';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-stdev@v0.3.0-deno/mod.js';
 ```
 
 #### stdev( d1, d2 )
@@ -141,7 +141,7 @@ v = stdev( 3.0, -1.0 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@deno/mod.js';
-import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-stdev@deno/mod.js';
+import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-f-stdev@v0.3.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
